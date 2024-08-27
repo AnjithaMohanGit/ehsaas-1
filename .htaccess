@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^home$ index.html [L]
+RewriteRule ^services$ services.html [L]
+RewriteRule ^packages$ packages.html [L]
+RewriteRule ^gallery$ gallery.html [L]
+RewriteRule ^about$ index.html#about [L]
+

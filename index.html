@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ehsaas</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+     <!-- Open Graph protocol -->
+     <meta property="og:title" content="ehsaas">
+     <meta property="og:description" content="ehsaas website">
+     <meta property="og:image" content="http://localhost/ehsaas/favicon/favicon-16x16.png">
+     <meta property="og:url" content="http://localhost/ehsaas">
+     <meta property="og:type" content="website">
+
+     <!-- bootsrap 5 -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+     <!-- css -->
+      <link rel="stylesheet" href="assets/css/syle.css">
+
+    <!-- slick slider -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a class="navbar-brand" href="home"><img src="assets/img/logo/primary.png" alt="" class="logo"></a>
+            <button class="navbar-toggler" onclick="showNav()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="packages">packages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services">services</a>
+                </li>
+                <li class="nav-item" onclick="closeNav()">
+                  <a class="nav-link" href="#about">about us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery">gallery</a>
+                </li>
+                <li class="nav-item" onclick="closeNav()">
+                  <a class="nav-link" href="#contact">contact us</a>
+                </li>
+              </ul>
+              <div class="close-row"> <button class="close" onclick="closeNav()" ><i class="fa-solid fa-xmark"></i></button> </div>
+              <div class="s-logo-div">
+                <img src="assets/img/logo/Souparnika Ayurveda.png" alt="Souparnika Ayurveda logo" class="souparnika-logo">
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- navbar END -->
+         <div class="container banner-scn">
+         <div class="row">
+          <div class="col-md-8 title-col">
+            <h1>Motherhood Made Easier, together</h1>
+            <p class="cnt">Ensuring a Joyful and Safe Journey from Pregnancy to Parenthood</p>
+            <button class="btn"><span>book now</span> <div class="icon-div"><img src="assets/img/icons/right-arrow-with-round.png" class="icon w-100 h-100" alt="" srcset=""></div></button>
+          </div>
+          <div class="col-md-4 img-col">
+            <img src="assets/img/other/banner-image2.png" alt="" class="img">
+          </div>
+          <div class="col-12 footer-col">
+            <a href="https://www.instagram.com/ehsaaspostnatalcare/"><img src="assets/img/icons/insta.png" alt="" class="icon"></a><a href="https://www.facebook.com/profile.php?id=61562710464713"><img src="assets/img/icons/fb.png" alt="" class="icon"></a>
+          </div>
+         </div>
+        </div>
+    </header>
+
+<!--*==================================================================
+                      sctn-1 packages
+==================================================================*-->
+<section class="package-scn">
+  <div class="container">
+
+    <div class="title-row text-center" data-aos="fade-up"
+    data-aos-duration="1500"> <h2>packages</h2></div>
+
+    <div class="row pt-5">
+
+      <div class="col-md-4 ">
+        <div class="card" data-aos="fade-left" data-aos-duration="1500">
+          <div class="card-body">
+          <div class="card-title">NON A/C ROOMS</div>
+          
+        </div>
+        <div class="card-footer">
+          <div class="price">₹2500/Day</div>
+          <a href="packages#package1"><div class="but"><button>View More</button></div></a>
+        </div>
+        </div>
+        <img src="assets/img/other/shadow.png" alt="" class="shadow-img">
+      </div>
+
+      <div class="col-md-4">
+        <div class="card" data-aos="fade-right" data-aos-duration="1500">
+          <img src="assets/img/other/golden-badge.png" alt="" class="golden-badge">
+          <div class="card-body">
+          <div class="card-title">PREMIUM</div>
+          
+        </div>
+        <div class="card-footer">
+          <div class="price">₹5400/Day</div>
+          <a href="packages#package2"><div class="but"><button>View More</button></div></a>
+        </div>
+        </div>
+        <img src="assets/img/other/shadow.png" alt="" class="shadow-img">
+      </div>
+
+      <div class="col-md-4 ">
+        <div class="card" data-aos="fade-up" data-aos-duration="1500">
+          <img src="assets/img/other/golden-badge.png" alt="" class="golden-badge">
+          <div class="card-body">
+          <div class="card-title">PREMIUM <br>A/C SINGLE ROOM</div>
+          
+          </div>
+           <div class="card-footer">
+             <div class="price">₹3900/Day</div>
+             <a href="packages#package3"><div class="but"><button>View More</button></div></a>
+           </div>
+        </div>
+        <img src="assets/img/other/shadow.png" alt="" class="shadow-img">
+      </div>
+
+      <div class="col-md-4 ">
+        <div class="card" data-aos="fade-left" data-aos-duration="1500">
+          <div class="card-body">
+          <div class="card-title">A/C ENTIRE FLAT</div>
+          
+        </div>
+        <div class="card-footer">
+          <div class="price">₹4950/Day</div>
+          <a href="packages#package4"><div class="but"><button>View More</button></div></a>
+        </div>
+        </div>
+        <img src="assets/img/other/shadow.png" alt="" class="shadow-img">
+      </div>
+
+      <div class="col-md-4 ">
+        <div class="card" data-aos="fade-left" data-aos-duration="1500">
+          <div class="card-body">
+          <div class="card-title">A/C SINGLE ROOMS</div>
+          
+        </div>
+        <div class="card-footer">
+          <div class="price">₹2900/Day</div>
+          <a href="packages#package5"><div class="but"><button>View More</button></div></a>
+        </div>
+        </div>
+        <img src="assets/img/other/shadow.png" alt="" class="shadow-img">
+      </div>
+
+
+     
+
+    </div>
+
+    <!-- <div class="button-row text-center py-5">
+      <a href="packages" class="btn">view all</a>
+    </div> -->
+
+  </div>
+</section>
+<!--*==================================================================
+                      sctn-1 packages END
+==================================================================*-->
+
+
+<!--*==================================================================
+                      sctn-2 about us
+==================================================================*-->
+
+<section class="about-scn">
+  <div id="about"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 img-col">
+        <div class="img-div" data-aos="zoom-in" data-aos-duration="1500"><img src="assets/img/about/about.png" alt="" class="img w-100"></div>
+      </div>
+      <div class="col-md-6 cnt-col">
+        <div class="title-row" data-aos="fade-up"
+        data-aos-duration="1500"> <h2>about us</h2></div>
+        <p class="cnt" data-aos="fade-up"
+        data-aos-duration="2000">Ehsaas is a new Sauparnika Ayurveda brand dedicated to ​providing exceptional postnatal care for mothers and their ​newborns. Our services are based on the ancient wisdom of ​Ayurveda, ensuring a healthy and balanced recovery after ​childbirth.</p>
+        <p class="cnt b" data-aos="fade-up" data-aos-duration="2000">At Ehsaas, we offer personalized care packages ​that include traditional Ayurvedic treatments, specially ​made medicines, and custom diet food. We aim to support ​the physical and emotional well-being of mothers and their ​babies.</p>
+        <p class="cnt c" data-aos="fade-up" data-aos-duration="2000">Our experienced team provides care at your home or in our comfortable facilities. We offer 24-hour nursing care, nutrition advice, and psychological support to ensure you and your baby receive the best care possible.</p>
+        <p class="cnt d" data-aos="fade-up" data-aos-duration="2000">Choose Ehsaas for our nurturing and holistic approach to postnatal care. Let us help you embrace motherhood with confidence and peace of mind, knowing that we are here to support you every step of the way.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!--*==================================================================
+                      sctn-2 about us END
+==================================================================*-->
+
+
+<!--*==================================================================
+                      sctn-3 vision
+==================================================================*-->
+<section class="about-scn vision">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 cnt-col">
+        <div class="title-row" data-aos="fade-up" data-aos-duration="1500"> <h2>our vision</h2></div>
+        <p class="cnt" data-aos="fade-up" data-aos-duration="2000">To be the leading provider of holistic post-maternity care, ​empowering mothers and nurturing newborns through ​ancient Ayurvedic wisdom, ensuring their health, happiness, ​and well-being.</p>
+      
+      </div>
+      <div class="col-md-6 img-col">
+        <div class="img-div" data-aos="zoom-in" data-aos-duration="1500"><img src="assets/img/other/vision.png" alt="" class="img w-100"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--*==================================================================
+                      sctn-3 vision END
+==================================================================*-->
+
+
+
+<!--*==================================================================
+                      sctn-4 services
+==================================================================*-->
+<section class="service-scn text-center">
+  <div class="container">
+    <div class="title-row" data-aos="fade-up" data-aos-duration="1500"> <h2>services</h2></div>
+    <div class="row pt-5">
+
+      <div class="col-md-4">
+        <div class="card">
+          <div class="img-div" data-aos="flip-up" data-aos-duration="1500"><img src="assets/img/services/Heaalthcare Center Services.jpg" alt="" class="img w-100 h-100"></div>
+          <div class="cnt">
+            <div class="card-title" data-aos="fade-up" data-aos-duration="1500">Healthcare Center ​Services</div>
+            <p class="p" data-aos="fade-up" data-aos-duration="2000">The hospital offers a variety of services, including Abhyangam (head and body massage), face and body packs, Kashaya Kuli, Rasnadi Thalam, Doomapanam, Kesha Doopanam, Anjanam, Udara Vestanam, and Siro Dharam. Additionally, they provide yoga and meditation sessions. Postpartum yoga and meditation are particularly beneficial for new mothers, as they can improve mood and energy levels, enhance sleep quality, reduce stress and anxiety, increase strength and flexibility, and foster emotional bonding with the newborn.</p>
+          
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <div class="img-div" data-aos="flip-up" data-aos-duration="1500"><img src="assets/img/services/Home Services.jpg" alt="" class="img w-100 h-100"></div>
+          <div class="cnt">
+            <div class="card-title" data-aos="fade-up" data-aos-duration="1500">Home Services</div>
+            <p class="p" data-aos="fade-up" data-aos-duration="2000">Our home services include Abhyangam (head and body massage), face and body packs, Kashaya Kuli, Rasnadi Thalam, Doomapanam, Kesha Doopanam, Anjanam, and Udara Vestanam. We also offer Ayurveda doctor consultations, psychological assessments, and mental support for postpartum issues. Treatments and medicines are provided under the supervision of an Ayurveda doctor. Please note that our Ayurveda Panchakarma therapists do not handle domestic chores such as laundry, cooking, or babysitting. For Siro Dhara, clients need to visit the hospital. These services are available in and around the Manjeri locality.</p>
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <div class="img-div" data-aos="flip-up" data-aos-duration="1500" ><img src="assets/img/services/Custom Diet Food.jpg" alt="" class="img w-100 h-100"></div>
+          <div class="cnt">
+            <div class="card-title" data-aos="fade-up" data-aos-duration="1500">Custom Diet Food</div>
+            <p class="p" data-aos="fade-up" data-aos-duration="2000">Our specialties include doctor consultations and visits, with experienced professionals providing care for both mother and child at home or in our hospitals. We offer 24-hour nursing care, laundry services, a play area for kids, parking facilities, and a homely atmosphere in a residential area. Additionally, we provide diet and nutrition advice, along with customized medicine prepared according to each patient's condition.</p>
+         
+          </div>
+        </div>
+      </div>
+      <div class="readmore"><a href="services" data-aos="fade-up" data-aos-duration="2000">read more</a></div>
+      
+    </div>
+  </div>
+</section>
+<!--*==================================================================
+                      sctn-4 services END
+==================================================================*-->
+
+
+<!--*==================================================================
+                      sctn-5 ychosus
+==================================================================*-->
+<section class="ychosus-scn">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-9"><div class="title-row" data-aos="fade-up" data-aos-duration="1500"><h2>why choose us</h2></div></div>
+
+      <div class="col-md-3 img-col">
+        <div class="img-div"><img src="assets/img/other/ychusus.jpg" alt="" class="img w-100 h-100"></div>
+      </div>
+      <div class="col-md-9 cnt-col">
+        <p class="p" data-aos="fade-up" data-aos-duration="2000">At Ehsaas, we prioritize the well-being of both mother and child through our ​comprehensive and holistic postnatal care programs rooted in the ancient ​wisdom of Ayurveda. Our services are meticulously designed to ensure a ​smooth and healthy transition into motherhood. We offer traditional ​Ayurvedic care packages that include practices such as Abhyangam (head ​and body massage), herbal treatments, yoga, and meditation, all aimed at ​restoring balance and promoting physical and emotional recovery.</p>
+        <p class="p" data-aos="fade-up" data-aos-duration="2000">Our dedicated team of experienced professionals provides personalized ​care at the convenience of your home or at our well-equipped facilities, ​ensuring a supportive and nurturing environment. With 24-hour nursing care, ​diet and nutrition advice, psychological support, and customized medicines ​prepared according to individual needs, we cover every aspect of ​postnatal care.</p>
+        <p class="p" data-aos="fade-up" data-aos-duration="2000">Choose Ehsaas for a blend of traditional Ayurvedic expertise and modern ​comfort, tailored to meet the unique needs of new mothers and their ​babies. Experience the gentle touch of Ayurveda's profound care and ​embrace the tender moments of motherhood with confidence and ​tranquillity.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--*==================================================================
+                      sctn-5 ychosus END
+==================================================================*-->
+
+
+
+<!--*==================================================================
+                      sctn-6 reviews
+==================================================================*-->
+<!--<section class="reviews-scn">-->
+<!--  <div class="container">-->
+<!--    <div class="title-row text-center pb-5" data-aos="fade-up" data-aos-duration="1500"> <h2>Satisfied Clients</h2></div>-->
+<!--    <div class="slider review-slider">-->
+
+<!--      <div class="slide">-->
+<!--        <div class="card p-3">-->
+<!--          <div class="card-body">-->
+<!--            <div class="img-div"><img src="assets/img/review/person-2.jpg" alt="" class="person a"></div>-->
+<!--            <div class="name-star-div">-->
+<!--              <h3 class="name mb-0">Mary Jane</h3>-->
+<!--              <div class="stars d-flex"><img src="assets/img/icons/stars.png" alt=""></div>-->
+<!--            </div>-->
+<!--            <p class="cnt">a wetyii shfgoyuwetou ieufghuiwejdhfidj dkhfkjfki</p>-->
+<!--          </div>-->
+<!--          <img src="assets/img/review/review-leaf.png" alt="" class="pos-img-leaf">-->
+          
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <div class="slide">-->
+<!--        <div class="card p-3">-->
+<!--          <div class="card-body">-->
+<!--            <div class="img-div"><img src="assets/img/review/person-1.jpg" alt="" class="person b"></div>-->
+<!--            <div class="name-star-div">-->
+<!--              <h3 class="name mb-0">Michel Alias</h3>-->
+<!--              <div class="stars d-flex"><img src="assets/img/icons/stars.png" alt=""></div>-->
+<!--            </div>-->
+<!--            <p class="cnt">a wetyii shfgoyuwetou ieufghuiwejdhfidj dkhfkjfki</p>-->
+<!--          </div>-->
+<!--          <img src="assets/img/review/review-leaf.png" alt="" class="pos-img-leaf">-->
+          
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <div class="slide">-->
+<!--        <div class="card p-3">-->
+<!--          <div class="card-body">-->
+<!--            <div class="img-div"><img src="assets/img/review/person-3.jpg" alt="" class="person c"></div>-->
+<!--            <div class="name-star-div">-->
+<!--              <h3 class="name mb-0">alia</h3>-->
+<!--              <div class="stars d-flex"><img src="assets/img/icons/stars.png" alt=""></div>-->
+<!--            </div>-->
+<!--            <p class="cnt">a wetyii shfgoyuwetou ieufghuiwejdhfidj dkhfkjfki</p>-->
+<!--          </div>-->
+<!--          <img src="assets/img/review/review-leaf.png" alt="" class="pos-img-leaf">-->
+          
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <div class="slide">-->
+<!--        <div class="card p-3">-->
+<!--          <div class="card-body">-->
+<!--            <div class="img-div"><img src="assets/img/review/person-2.jpg" alt="" class="person a"></div>-->
+<!--            <div class="name-star-div">-->
+<!--              <h3 class="name mb-0">Mary Jane</h3>-->
+<!--              <div class="stars d-flex"><img src="assets/img/icons/stars.png" alt=""></div>-->
+<!--            </div>-->
+<!--            <p class="cnt">a wetyii shfgoyuwetou ieufghuiwejdhfidj dkhfkjfki</p>-->
+<!--          </div>-->
+<!--          <img src="assets/img/review/review-leaf.png" alt="" class="pos-img-leaf">-->
+          
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <div class="slide">-->
+<!--        <div class="card p-3">-->
+<!--          <div class="card-body">-->
+<!--            <div class="img-div"><img src="assets/img/review/person-1.jpg" alt="" class="person b"></div>-->
+<!--            <div class="name-star-div">-->
+<!--              <h3 class="name mb-0">Michel Alias</h3>-->
+<!--              <div class="stars d-flex"><img src="assets/img/icons/stars.png" alt=""></div>-->
+<!--            </div>-->
+<!--            <p class="cnt">a wetyii shfgoyuwetou ieufghuiwejdhfidj dkhfkjfki</p>-->
+<!--          </div>-->
+<!--          <img src="assets/img/review/review-leaf.png" alt="" class="pos-img-leaf">-->
+          
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <div class="slide">-->
+<!--        <div class="card p-3">-->
+<!--          <div class="card-body">-->
+<!--            <div class="img-div"><img src="assets/img/review/person-3.jpg" alt="" class="person c"></div>-->
+<!--            <div class="name-star-div">-->
+<!--              <h3 class="name mb-0">alia</h3>-->
+<!--              <div class="stars d-flex"><img src="assets/img/icons/stars.png" alt=""></div>-->
+<!--            </div>-->
+<!--            <p class="cnt">a wetyii shfgoyuwetou ieufghuiwejdhfidj dkhfkjfki</p>-->
+<!--          </div>-->
+<!--          <img src="assets/img/review/review-leaf.png" alt="" class="pos-img-leaf">-->
+          
+<!--        </div>-->
+<!--      </div>-->
+
+
+
+      
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+<!--*==================================================================
+                      sctn-6 reviews END
+==================================================================*-->
+
+
+<!--*==================================================================
+                      footer
+==================================================================*-->
+<div id="contact"></div>
+<footer class="py-5 text-center">
+
+  <div class="container">
+    <div class="conatact-part">
+      <h2 class="title">connect with us</h2>
+      <p class="address">T.k hamza road, Mullampara, Manjeri</p>
+      <a href="" class="number">+91 8589990672</a><br>
+      <a href="" class="mail">info@ehsaas.com</a>
+    </div>
+    <div class="social-media-part">
+      <h3 class="title">Keep up with our events on social media</h3>
+      <div class="icons d-flex"><a href="https://www.instagram.com/ehsaaspostnatalcare/"><img src="assets/img/icons/insta-white.svg" alt="" class="icon"></a><a href="https://www.facebook.com/profile.php?id=61562710464713"><img src="assets/img/icons/fb-white.svg" alt="" class="icon"></a></div>
+      <div class="shapes d-flex"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+</footer>
+    <!-- bootsrap-5 -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/script.js?v-1.1"></script>
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
